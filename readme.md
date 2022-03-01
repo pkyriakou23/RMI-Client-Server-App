@@ -44,7 +44,7 @@ java client <ip> <port number> 6 <authToken> <message_id>
 ```
 
 ## Implementation details
-#### Client:
+#### Client
 Implements connection to the server
 There is an if for each command it can accept and execute. Calls the appropriate Interface method that is connected
 to the server to provide its services and print the appropriate message.
